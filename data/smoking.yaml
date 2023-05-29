@@ -1,0 +1,13 @@
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── smoking_calling  ← here
+
+path: ./datasets/smoke  # dataset root dir
+train: images/train # train images
+val: images/val # val images
+test: images/test # test images (optional)
+
+nc: 1
+names: ['smoke']  #class names
